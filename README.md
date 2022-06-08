@@ -1,4 +1,8 @@
 # TallerSOLID
 
-#Integrantes
+## Integrantes
+### Andres Moscoso
+### Henry Quinonez
+### Nicolas Coronel
+
 
