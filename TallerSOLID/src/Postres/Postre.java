@@ -32,6 +32,13 @@ public class Postre{
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
     }
+    public String getSabor() {
+    	return sabor;
+    }
+    public double getPrecioParcial() {
+    	return precioParcial;
+    }
+    
 
     @Override
     public String toString() {
