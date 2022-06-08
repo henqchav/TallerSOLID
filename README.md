@@ -1,4 +1,4 @@
 # TallerSOLID
 
-##Integrantes:
+#Integrantes:
 
