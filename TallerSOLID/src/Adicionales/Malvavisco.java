@@ -9,10 +9,10 @@ package Adicionales;
  *
  * @author Pedro Mendoza
  */
-public class Malvaviscos extends Aderezo{
+public class Malvavisco extends Aderezo{
 
     
-	   public Malvaviscos() {
+	   public Malvavisco() {
 		   setNombre();
 	   }
 	    @Override
