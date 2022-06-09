@@ -27,11 +27,11 @@ public abstract class Postre{
     }
     
     public static void anadirAderezoPostre(Postre postre,Aderezo aderezo){
-        postre.aderezos().add(aderezo);
+        postre.getAderezos().add(aderezo);
     }
     
     public static void quitarAderezoPostre(Postre postre,Aderezo aderezo){
-        postre.aderezos().remove(aderezo);
+        postre.getAderezos().remove(aderezo);
     }
     
     public double calcularPrecioFinal(){
