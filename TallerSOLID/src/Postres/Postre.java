@@ -26,6 +26,14 @@ public abstract class Postre{
         this.precioParcial = 15.55;
     }
     
+    public static void anadirAderezoPostre(Postre postre,Aderezo aderezo){
+        postre.aderezos().add(aderezo);
+    }
+    
+    public static void quitarAderezoPostre(Postre postre,Aderezo aderezo){
+        postre.aderezos().remove(aderezo);
+    }
+    
     public double calcularPrecioFinal(){
         double precioFinal;
         precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
@@ -59,3 +67,4 @@ public abstract class Postre{
     }
     
 }
+
