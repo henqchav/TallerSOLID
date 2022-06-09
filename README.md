@@ -22,5 +22,7 @@ La tercera parte incumnple "Single responsibility principle" ya que en clases co
 # Parte 5 
 En la parte 5 incumple con "Liskov substitution principle" y "Open/closed principle" ya que al hacer la superclase saltaba un error al hallar un tipo de leche, por lo que de paso incumplia tambien con el principio de abierto y cerrado al querer añadir algun otro tipo de leche o postre, y de paso se soluciono el error que saltaba al querer usar la leche descremada.
 ![image](https://user-images.githubusercontent.com/93171012/172745571-1281f04d-0b08-4504-b706-e0ed2e839d55.png)
+# Parte 6
+![image](https://user-images.githubusercontent.com/93171012/172746639-66817447-3276-40dd-a6e3-c95809df08c4.png)
 
 
