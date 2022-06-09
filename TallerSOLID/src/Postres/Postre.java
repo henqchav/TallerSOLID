@@ -34,11 +34,6 @@ public abstract class Postre{
         postre.getAderezos().remove(aderezo);
     }
     
-    public double calcularPrecioFinal(){
-        double precioFinal;
-        precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
-        return precioFinal;
-    }
 
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
@@ -46,9 +41,7 @@ public abstract class Postre{
     public String getSabor() {
     	return sabor;
     }
-    public double getPrecioParcial() {
-    	return precioParcial;
-    }
+    
     public ArrayList<Aderezo> getAderezo(){
     	return aderezos;
     }
@@ -62,9 +55,7 @@ public abstract class Postre{
     public String toString() {
         return "Pastel{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
     }
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
-    }
+    
     
 }
 
