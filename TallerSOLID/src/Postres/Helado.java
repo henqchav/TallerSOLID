@@ -7,6 +7,7 @@ package Postres;
 
 import java.util.ArrayList;
 import Adicionales.Aderezo;
+import Leche.LecheEntera;
 
 /**
  *
@@ -21,4 +22,11 @@ public class Helado extends Postre{
     public String toString() {
     	return "Pastel{" + "sabor=" + super.getSabor() + ", precioParcial=" + super.getPrecioParcial() + ", aderezos=" + super.getAderezos() + '}';
     }
+    
+    @Override
+    public void cambiarLeche(LecheEntera cambiar_Leche) {
+    	cambiar_Leche.leche();
+    }
+    
+    
 }
